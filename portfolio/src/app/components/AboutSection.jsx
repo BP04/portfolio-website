@@ -97,7 +97,7 @@ const AboutSection = () => {
 
     return (
         <section id="about" className="text-white mt-20 flex flex-col items-center justify-center">
-            <div className="relative w-max mx-auto h-18 w-90 grid grid-cols-4 items-center px-[3px] rounded-full bg-slate-900 overflow-hidden shadow-2xl shadow-900/20 transition">
+            <div className="relative w-max mx-auto h-18 w-90 grid grid-cols-5 items-center px-[3px] rounded-full bg-slate-900 overflow-hidden shadow-2xl shadow-900/20 transition">
                 <TabButton selectTab={() => handleTabChange("education")} active={tab === "education"} className="mr-5">
                     {" "}
                     Education{" "}
@@ -109,6 +109,10 @@ const AboutSection = () => {
                 <TabButton selectTab={() => handleTabChange("achievements")} active={tab === "achievements"}  className="mr-5">
                     {" "}
                     Achievements{" "}
+                </TabButton>
+                <TabButton selectTab={() => handleTabChange("experiences")} active={tab === "experiences"}  className="mr-5">
+                    {" "}
+                    Experiences{" "}
                 </TabButton>
                 <TabButton selectTab={() => handleTabChange("projects")} active={tab === "projects"}>
                     {" "}
