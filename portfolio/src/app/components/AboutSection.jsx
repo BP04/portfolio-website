@@ -82,7 +82,37 @@ const itemData = [
         title: "STEI-K ITB'23 Election System",
         description: "Created a software to help ensure fair voting in STEI-K ITB'23 leader election",
         tag: ["projects"]
-    }
+    },
+    {
+        id: 14,
+        title: "Coach at Kokocoder Group",
+        description: "Conducted over 250 hours of comprehensive coaching sessions for more than 60 students, ranging from beginner to advanced levels.",
+        tag: ["experiences"]
+    },
+    {
+        id: 15,
+        title: "42nd Place in IEEEXtreme 17.0 Programming Competition",
+        description: "Placed 42nd out of 7091 teams world-wide.",
+        tag: ["achievements"],
+    },
+    {
+        id: 16,
+        title: "Head of Competition of IMPACT 4.0",
+        description: "Led a team of 12 staff members in creating and developing complex and engaging problems for a nation-wide competition.",
+        tag: ["experiences"]
+    },
+    {
+        id: 17,
+        title: "2nd Runner Up at IDEAFUSE Mikroskil",
+        description: "2nd runner up at a nation-wide competitive programming competition.",
+        tag: ["achievements"]
+    },
+    {
+        id: 18,
+        title: "5th Place at Find IT UGM CP Category",
+        description: "5th place at a nation-wide programming competition held by Gadjah Mada University.",
+        tag: ["achievements"]
+    },
 ];
 
 const AboutSection = () => {
